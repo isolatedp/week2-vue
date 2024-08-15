@@ -219,7 +219,7 @@ const cancelEdit = () => {
 const toggleTodo = async (todo: TodoForm) => {
   // 先驗證是否已登入
   const loginResult = await tokenValidHandler()
-  if (loginResult) {
+  if (!loginResult) {
     router.push('/login')
   }
 

@@ -37,3 +37,7 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Online Url
+
+[https://www.ck-tn-bp001.linkpc.net/week2-vue](https://www.ck-tn-bp001.linkpc.net/week2-vue)
