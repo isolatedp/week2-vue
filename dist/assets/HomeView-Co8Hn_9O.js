@@ -1,1 +1,0 @@
-import{o as r,c as _,F as a,a as t}from"./index-DpmHhEdL.js";const l=(e,o)=>{const n=e.__vccOpts||e;for(const[c,s]of o)n[c]=s;return n},u={},d=t("h1",null,"Vue 第二週作業",-1),f=t("p",null,"由於串接課程練習用 API，資料會在每日上午 01:15 清除",-1),i=t("p",null,"本程式僅提供網頁功能操作，若有使用瀏覽器重新載入功能，則需重新登入",-1);function p(e,o){return r(),_(a,null,[d,f,i],64)}const h=l(u,[["render",p]]);export{h as default};

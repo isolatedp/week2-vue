@@ -52,12 +52,12 @@ export const logoutHandler = async () => {
     const errorMsg = response?.data?.message ? `登出失敗: ${response.data.message}` : '登出失敗'
     apiResult = response?.data || {}
     alert(errorMsg)
+    return false
   }
 
   if (apiResult?.status) {
     resetStatus()
-    alert('登出成功，將跳轉至首頁')
-    router.push('/')
+    return true
   }
 }
 
