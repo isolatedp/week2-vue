@@ -1,0 +1,1 @@
+import{o as r,c as a,F as _,a as c}from"./index-DMvcCjJc.js";const l=(e,t)=>{const o=e.__vccOpts||e;for(const[n,s]of t)o[n]=s;return o},u={},f=c("h1",null,"Vue 第二週作業",-1),d=c("p",null,"由於串接課程練習用 API，資料會在每日上午 01:15 清除",-1);function i(e,t){return r(),a(_,null,[f,d],64)}const p=l(u,[["render",i]]);export{p as default};
